@@ -29,6 +29,32 @@ nav{
     border-radius: 2rem;
 }
 
+.sect2 {
+  margin-top: 40px;
+  background-color: violet;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+
+.item1{
+  background-color: aquamarine;
+  height: 450px;
+  border-radius: 2rem;
+  width: 90%;
+  margin: 5px auto;
+  
+}
+
+.item2{
+  background-color: aquamarine;
+  height: 450px;
+  border-radius: 2rem;
+  width: 90%;
+  margin: 20px auto;
+}
+
+
 @media screen and (max-width: 768px) {
     .menu-container {
       margin-left: 0;
@@ -102,5 +128,33 @@ nav{
     .sect1{
         width: 920px;
         margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    .item1{
+      height: 550px;
+    }
+    .item2{
+      height: 400px;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .container{
+      display: flex;
+      width: 800px;
+      margin: 0 auto;
+    }
+    
+
+    .item1{
+      height: 450px;
+      margin: 0 5px;
+    }
+    .item2{
+      height: 300px;
+      margin: 0 5px;
+      margin-top: 150px;
     }
   }
