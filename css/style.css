@@ -108,6 +108,45 @@ nav{
   border-radius: 2rem;
 }
 
+.sect5{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.item1s5{
+  height: 50px;
+  background-color: aqua;
+  flex-basis: 90%;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+}
+
+.item2s5{
+  height: 350px;
+  background-color: aqua;
+  flex-basis: 90%;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+}
+
+.item3s5{
+  height: 300px;
+  background-color: aqua;
+  flex-basis: 90%;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+}
+
+.item4s5{
+  height: 320px;
+  background-color: aqua;
+  flex-basis: 90%;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+}
+
 @media screen and (max-width: 768px) {
     .menu-container {
       margin-left: 0;
