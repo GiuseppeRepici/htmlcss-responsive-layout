@@ -27,13 +27,6 @@ nav{
     height: 300px;
     margin-top: 10px;
     border-radius: 2rem;
-}{
-    width: 90%;
-    margin: 0 auto;
-    background-color: blueviolet;
-    height: 300px;
-    margin-top: 10px;
-    border-radius: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,7 +74,7 @@ nav{
     }
   }
 
-  @media screen and (max-width: 768px) and (min-width: 480px) {
+  @media screen and (min-width: 480px) {
     .sect1 {
         display: flex;
         flex-wrap: wrap;
@@ -103,5 +96,11 @@ nav{
         margin: 5px;
     }
 
+  }
 
+  @media screen and (min-width: 768px) {
+    .sect1{
+        width: 920px;
+        margin: 0 auto;
+    }
   }
