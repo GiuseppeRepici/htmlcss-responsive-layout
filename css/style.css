@@ -11,6 +11,31 @@ nav{
     background-color: blue;
 }
 
+.card-sect1{
+    width: 90%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+.card1-sect1 , .card2-sect1{
+    width: 90%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 2rem;
+}{
+    width: 90%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
 @media screen and (max-width: 768px) {
     .menu-container {
       margin-left: 0;
@@ -54,4 +79,29 @@ nav{
     ul li{
         padding: 0 5px;
     }
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 480px) {
+    .sect1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-sect1{
+        flex-basis: calc((100% - 20px) / 3 * 2 );
+        height: 300px;
+        margin: 5px;
+    }
+
+    .card1-sect1{
+        flex-basis: calc( (100% - 20px) / 3 );
+        margin: 5px;
+    }
+
+    .card2-sect1{
+        flex-basis: calc( (100% - 30px) / 3 );
+        margin: 5px;
+    }
+
+
   }
