@@ -8,24 +8,50 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: blue;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .menu-container {
       margin-left: 0;
+      position: relative;
     }
   
     .menu-container ul {
-      display: flex;
+      display: flex;    
       display: none;
-      transition: display 1s;
+      position: absolute;
+      right: 15px;
+      top: 31px;
+      background-color: blue;
+      
     }
 
-    .hamburger-menu-btn:active  {
+    ul{
+        list-style: none;
+    }
+
+    .menu-container:hover ul {
         display: block;
+        display: inline;
       }
   
     .menu-container .separator {
       margin-right: auto;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .hamburger-menu-btn{
+        display: none;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+    }
+
+    ul li{
+        padding: 0 5px;
     }
   }
