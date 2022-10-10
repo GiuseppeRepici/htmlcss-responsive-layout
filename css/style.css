@@ -169,18 +169,20 @@ nav{
 
 footer{
   background-color: black;
+}
+
+.footflex{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 30px;
-  margin-bottom: 25px;
 }
 
 .item1f{
   flex-basis: 90%;
   height: 40px;
   background-color: aliceblue;
-  margin-bottom: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .item2f{
@@ -188,6 +190,7 @@ footer{
   height: 20px;
   background-color: aliceblue;
   margin-bottom: 20px;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -336,8 +339,10 @@ footer{
       background-color: violet;
     }
 
-    .sect6{
+    .sect6 , .footflex{
       width: 30%;
       margin: 0 auto;
     }
+
+    
   }
