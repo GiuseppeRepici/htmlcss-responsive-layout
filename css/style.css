@@ -11,8 +11,13 @@ nav{
     background-color: blue;
 }
 
+.sect1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card-sect1{
-    width: 90%;
+    flex-basis: 90%;
     margin: 0 auto;
     background-color: blueviolet;
     height: 500px;
@@ -21,7 +26,7 @@ nav{
 }
 
 .card1-sect1 , .card2-sect1{
-    width: 90%;
+    flex-basis: 90%;
     margin: 0 auto;
     background-color: blueviolet;
     height: 300px;
@@ -54,6 +59,54 @@ nav{
   margin: 20px auto;
 }
 
+.sect3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.item1s3{
+  background-color: aqua;
+  flex-basis: 90%;
+  height: 300px;
+  border-radius: 2rem;
+  margin-bottom: 10px;
+}
+
+.item2s3{
+  background-color: rgb(15, 67, 67);
+  flex-basis: 90%;
+  height: 350px;
+  margin: 10px 0;
+  border-radius: 2rem;
+}
+
+.sect4{
+  background-color: violet;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+
+.item1s4{
+  height: 100px;
+  background-color: aqua;
+  flex-basis: 90%;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+}
+
+.item2s4{
+  height: 250px;
+  background-color: aqua;
+  flex-basis: 90%;
+  margin: 15px 0;
+  border-radius: 2rem;
+}
 
 @media screen and (max-width: 768px) {
     .menu-container {
