@@ -118,30 +118,16 @@ nav{
 }
 
 .item1s5{
-  height: 50px;
+  height: 950px;
   background-color: aqua;
   flex-basis: 90%;
   margin-bottom: 30px;
   border-radius: 2rem;
 }
+
+
 
 .item2s5{
-  height: 350px;
-  background-color: aqua;
-  flex-basis: 90%;
-  margin-bottom: 30px;
-  border-radius: 2rem;
-}
-
-.item3s5{
-  height: 300px;
-  background-color: aqua;
-  flex-basis: 90%;
-  margin-bottom: 30px;
-  border-radius: 2rem;
-}
-
-.item4s5{
   height: 320px;
   background-color: aqua;
   flex-basis: 90%;
@@ -247,6 +233,7 @@ footer{
     ul li{
         padding: 0 5px;
     }
+
   }
 
   @media screen and (min-width: 480px) {
@@ -279,10 +266,19 @@ footer{
       height: 230px;
     }
 
-
     .item2s4 {
       margin: 10px;
       flex-basis: calc(100% / 2 - 20px);
+    }
+
+    .item1s5{
+      flex-basis: calc(60% - 40px);
+      margin: 10px;
+    }
+
+    .item2s5{
+      flex-basis: calc(40% - 40px);
+      margin: 10px;
     }
 
   }
@@ -290,7 +286,7 @@ footer{
 
 
   @media screen and (min-width: 768px) {
-    .sect1{
+    .sect1 , .sect5{
         width: 920px;
         margin: 0 auto;
     }
