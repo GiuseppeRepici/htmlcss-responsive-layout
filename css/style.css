@@ -331,4 +331,13 @@ footer{
       margin: 10px;
       flex-basis: calc(100% / 3 - 30px);
     }
+
+    .sfondo{
+      background-color: violet;
+    }
+
+    .sect6{
+      width: 30%;
+      margin: 0 auto;
+    }
   }
