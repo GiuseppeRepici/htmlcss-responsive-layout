@@ -237,10 +237,11 @@ img{
 
 .item1s4{
   height: 100px;
-  background-color: aqua;
   flex-basis: 90%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border-radius: 2rem;
+  text-align: center;
+  padding: 5px;
 }
 
 .item2s4{
@@ -249,6 +250,26 @@ img{
   flex-basis: 90%;
   margin: 15px 0;
   border-radius: 2rem;
+}
+
+.item2s4 h1{
+  margin-left: 10px;
+  color: white;
+  font-size: 50px;
+  margin: 10px 10px 0;
+}
+
+.item2s4 h3{
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  margin: 10px 10px 0;
+}
+
+.item2s4 p{
+  color: white;
+  font-size: 14px;
+  margin: 10px 10px 0;
 }
 
 .sect5{
