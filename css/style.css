@@ -281,20 +281,47 @@ img{
 
 .item1s5{
   height: 950px;
-  background-color: aqua;
+  flex-basis: 90%;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+  text-align: left;
+}
+
+.item1s5 h1{
+  font-size: 50px;
+  margin: 30px 5px 0;
+}
+
+.item1s5 p{
+  font-size: 20px;
+  margin: 30px 5px 0;
+}
+
+.item2s5{
+  height: 530px;
   flex-basis: 90%;
   margin-bottom: 30px;
   border-radius: 2rem;
 }
 
+.round{
+  border-radius: 100%;
+  padding: 20px;
+}
 
+.item2s5 h3{
+  margin: 30px 10px 0;
+  font-size: 22px;
+}
 
-.item2s5{
-  height: 320px;
-  background-color: aqua;
-  flex-basis: 90%;
-  margin-bottom: 30px;
+.item2s5 span{
+  margin: 10px 10px 0;
+  width: 150px;
+  padding: 3px;
+  font-size: 18px;
   border-radius: 2rem;
+  background-color: violet;
+  display: block;
 }
 
 .sect6{
