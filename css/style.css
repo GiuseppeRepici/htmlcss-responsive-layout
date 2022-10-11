@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+.menu-container ul{
+  color: white;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -11,6 +15,9 @@ nav{
     background-color: blue;
 }
 
+a{
+  color: aliceblue;
+}
 .sect1{
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +30,41 @@ nav{
     height: 500px;
     margin-top: 10px;
     border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-sect1 h1{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  flex-basis: 100%;
+}
+
+.card-sect1 p{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  flex-basis: 100%;
+
+}
+
+.box{
+  border-radius: 2rem;
+  background-color: azure;
+  color: black;
+  width: 70px;
+  padding: 3px;
+  margin: 9px auto;
+}
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+  align-self: flex-end;
+  flex-basis: 100%;
 }
 
 .card1-sect1 , .card2-sect1{
