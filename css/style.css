@@ -302,6 +302,7 @@ img{
 .round{
   border-radius: 100%;
   padding: 20px;
+ 
 }
 
 .item2s5 h3{
@@ -481,7 +482,9 @@ footer{
     #prov {
       width: 50%;
       margin: 0;
-      padding: 2px0;
+      padding: 20px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
     }
 
     .item2s3 p {
